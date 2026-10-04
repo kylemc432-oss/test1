@@ -1,0 +1,1194 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+<title>Calisthenics + Lifts</title>
+<link rel="manifest" href="data:application/manifest+json;base64,eyJuYW1lIjogIkNhbGlzdGhlbmljcyArIExpZnRzIiwgInNob3J0X25hbWUiOiAiQ2FsaXN0aGVuaWNzIiwgImRlc2NyaXB0aW9uIjogIjEyLXdlZWsgcHVsbC11cCBhbmQgaGFuZHN0YW5kIHNraWxsIHBsYW4gd2l0aCBhIHB1c2gvcHVsbC9sZWdzIGxpZnRpbmcgbG9nLiIsICJzdGFydF91cmwiOiAiLiIsICJzY29wZSI6ICIuIiwgImRpc3BsYXkiOiAic3RhbmRhbG9uZSIsICJvcmllbnRhdGlvbiI6ICJwb3J0cmFpdCIsICJiYWNrZ3JvdW5kX2NvbG9yIjogIiMwZjdhNmYiLCAidGhlbWVfY29sb3IiOiAiIzBmN2E2ZiJ9">
+<link rel="icon" href="data:image/png;base64,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">
+<link rel="apple-touch-icon" href="data:image/png;base64,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">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+<meta name="apple-mobile-web-app-title" content="Calisthenics">
+<meta name="theme-color" content="#0f7a6f">
+<script>
+  // Applied before first paint so switching to dark mode never flashes light first.
+  (function(){
+    try{
+      var saved = localStorage.getItem('zero-to-5k-theme');
+      var wantsDark = saved ? saved === 'dark' : (window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches);
+      if(wantsDark) document.documentElement.setAttribute('data-theme','dark');
+    }catch(e){}
+  })();
+</script>
+<style>
+  :root{
+    --bg:#f7f8fa;
+    --card:#ffffff;
+    --ink:#1c2430;
+    --ink-soft:#5b6472;
+    --line:#e3e7ec;
+    --teal:#0f7a6f;
+    --teal-soft:#e3f3f0;
+    --amber:#b5730a;
+    --amber-soft:#fbeed9;
+    --blue:#2a5fa5;
+    --blue-soft:#e6eefb;
+    --violet:#6a4fb0;
+    --violet-soft:#efe9fb;
+    --orange:#b5540f;
+    --orange-soft:#fbe9da;
+    --danger:#b3372a;
+    --danger-soft:#fbe7e4;
+    --surface-2:#eef0f3;
+    --surface-3:#fbfbfc;
+    --run-soft-bg:#fdece7;
+    --run-soft-text:#a3401f;
+    --run-soft-border:#f4cabb;
+    --radius:14px;
+    --shadow:0 1px 2px rgba(20,30,40,.06), 0 6px 20px rgba(20,30,40,.05);
+  }
+  :root[data-theme="dark"]{
+    --bg:#14171a;
+    --card:#1e2226;
+    --ink:#eef1f4;
+    --ink-soft:#9aa3ad;
+    --line:#2e333a;
+    --teal:#2bb3a3;
+    --teal-soft:#153934;
+    --amber:#e0a83e;
+    --amber-soft:#3a2f14;
+    --blue:#6fa8e0;
+    --blue-soft:#16283c;
+    --violet:#af9aec;
+    --violet-soft:#2a2340;
+    --orange:#e79a5c;
+    --orange-soft:#3a2617;
+    --danger:#e17361;
+    --danger-soft:#3a1f1a;
+    --surface-2:#22262b;
+    --surface-3:#1a1d21;
+    --run-soft-bg:#3a2620;
+    --run-soft-text:#ff9f75;
+    --run-soft-border:#5a3428;
+    --shadow:0 1px 2px rgba(0,0,0,.4), 0 6px 20px rgba(0,0,0,.35);
+  }
+  *{box-sizing:border-box;}
+  html,body{margin:0;padding:0;}
+  body{
+    background:var(--bg);
+    color:var(--ink);
+    font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
+    line-height:1.5;
+    padding-bottom:calc(60px + env(safe-area-inset-bottom));
+  }
+  .wrap{max-width:780px;margin:0 auto;padding:0 18px;}
+  header.top{
+    background:linear-gradient(135deg,#0f7a6f,#0c5f57);
+    color:#fff;
+    padding:calc(34px + env(safe-area-inset-top)) 18px 28px;
+    margin-bottom:22px;
+  }
+  header.top .wrap{display:flex;flex-direction:column;gap:6px;}
+  header.top .head-row{display:flex;justify-content:space-between;align-items:flex-start;gap:10px;}
+  header.top h1{margin:0;font-size:1.6rem;letter-spacing:-0.01em;}
+  header.top p{margin:0;opacity:.92;font-size:.98rem;max-width:56ch;}
+  .theme-toggle{
+    flex-shrink:0;background:rgba(255,255,255,.16);color:#fff;border:1px solid rgba(255,255,255,.3);
+    border-radius:100px;padding:8px 12px;font-size:1rem;line-height:1;
+  }
+  .theme-toggle:hover{background:rgba(255,255,255,.24);}
+  .card{
+    background:var(--card);
+    border:1px solid var(--line);
+    border-radius:var(--radius);
+    box-shadow:var(--shadow);
+    padding:20px 22px;
+    margin-bottom:18px;
+  }
+  .card h2{margin:0 0 4px;font-size:1.05rem;}
+  .card h3{margin:0 0 4px;font-size:.95rem;}
+  .muted{color:var(--ink-soft);}
+  .small{font-size:.85rem;}
+  button{
+    font-family:inherit;
+    cursor:pointer;
+    border:none;
+    border-radius:10px;
+    padding:11px 18px;
+    font-size:.95rem;
+    font-weight:600;
+    transition:transform .05s ease, opacity .15s ease;
+  }
+  button:active{transform:scale(.98);}
+  .btn-primary{background:var(--teal);color:#fff;}
+  .btn-primary:hover{opacity:.92;}
+  .btn-secondary{background:var(--teal-soft);color:var(--teal);}
+  .btn-ghost{background:transparent;color:var(--ink-soft);border:1px solid var(--line);}
+  .btn-danger{background:var(--danger-soft);color:var(--danger);}
+  button:disabled{opacity:.5;cursor:not-allowed;}
+  .row{display:flex;gap:10px;flex-wrap:wrap;align-items:center;}
+  label.field{display:flex;flex-direction:column;gap:6px;font-size:.85rem;color:var(--ink-soft);font-weight:600;}
+  input[type=date],input[type=number],input[type=text]{
+    font-family:inherit;font-size:.95rem;padding:9px 10px;border-radius:8px;border:1px solid var(--line);background:var(--card);color:var(--ink);
+  }
+  input[type=number]{width:100%;}
+  .day-grid{display:grid;grid-template-columns:repeat(7,1fr);gap:6px;margin-top:4px;}
+  .day-pill{
+    display:flex;flex-direction:column;align-items:center;justify-content:center;gap:2px;
+    padding:9px 2px;border-radius:9px;border:1.5px solid var(--line);
+    font-size:.78rem;font-weight:700;color:var(--ink-soft);background:var(--card);user-select:none;
+    cursor:pointer;
+  }
+  .day-pill .dname{font-size:.72rem;opacity:.8;font-weight:600;}
+  .day-pill .dtype{font-size:.82rem;}
+  .day-pill.t-run{background:var(--teal);border-color:var(--teal);color:#fff;}
+  .day-pill.t-push{background:var(--blue);border-color:var(--blue);color:#fff;}
+  .day-pill.t-pull{background:var(--violet);border-color:var(--violet);color:#fff;}
+  .day-pill.t-legs{background:var(--orange);border-color:var(--orange);color:#fff;}
+  .day-pill.t-rest{background:var(--card);color:var(--ink-soft);}
+  .day-pill.selected{box-shadow:0 0 0 3px var(--card), 0 0 0 5px var(--ink);}
+  .test-mode-card{border-style:dashed;border-color:var(--ink-soft);}
+  .test-mode-panel{background:var(--surface-2);border-radius:12px;padding:12px 14px;margin:10px 0 0;}
+  .badge.testing{border:1.5px dashed currentColor;}
+  .setup-msg{font-size:.8rem;color:var(--amber);min-height:1.2em;margin-top:6px;}
+  .setup-msg.ok{color:var(--teal);}
+  .badge{
+    display:inline-flex;align-items:center;gap:5px;
+    background:var(--teal-soft);color:var(--teal);
+    font-size:.75rem;font-weight:700;letter-spacing:.02em;text-transform:uppercase;
+    padding:4px 10px;border-radius:100px;
+  }
+  .badge.rest{background:var(--surface-2);color:var(--ink-soft);}
+  .badge.push{background:var(--blue-soft);color:var(--blue);}
+  .badge.pull{background:var(--violet-soft);color:var(--violet);}
+  .badge.legs{background:var(--orange-soft);color:var(--orange);}
+  .today-card .top-row{display:flex;justify-content:space-between;align-items:flex-start;gap:10px;flex-wrap:wrap;}
+  .today-card h2{font-size:1.3rem;margin-top:6px;}
+  .segment-summary{display:flex;flex-wrap:wrap;gap:6px;margin:14px 0;}
+  .seg-chip{
+    background:var(--bg);border:1px solid var(--line);border-radius:8px;
+    padding:5px 9px;font-size:.78rem;font-weight:600;color:var(--ink-soft);
+  }
+  .seg-chip.run{background:var(--run-soft-bg);color:var(--run-soft-text);border-color:var(--run-soft-border);}
+  .seg-chip.walk{background:var(--blue-soft);color:var(--blue);border-color:#c9dcf3;}
+  .progress-outer{background:var(--surface-2);border-radius:100px;height:10px;overflow:hidden;margin:10px 0;}
+  .progress-inner{background:var(--teal);height:100%;border-radius:100px;transition:width .3s ease;}
+  .week-block{border:1px solid var(--line);border-radius:12px;margin-bottom:10px;overflow:hidden;}
+  .week-head{
+    display:flex;justify-content:space-between;align-items:center;
+    padding:12px 16px;background:var(--surface-3);cursor:pointer;font-weight:700;font-size:.92rem;
+  }
+  .week-head .chev{transition:transform .15s ease;color:var(--ink-soft);}
+  .week-block.open .chev{transform:rotate(90deg);}
+  .week-days{display:none;}
+  .week-block.open .week-days{display:block;}
+  .day-row{
+    display:flex;justify-content:space-between;align-items:center;
+    padding:10px 16px;border-top:1px solid var(--line);font-size:.88rem;gap:10px;
+  }
+  .day-row.today{background:var(--teal-soft);}
+  .day-row .date-col{color:var(--ink-soft);min-width:96px;font-variant-numeric:tabular-nums;flex-shrink:0;}
+  .day-row .right-col{text-align:right;}
+  .tips li{margin-bottom:8px;}
+  .tips ul{padding-left:20px;margin:8px 0 0;}
+  footer.note{
+    text-align:center;color:var(--ink-soft);font-size:.8rem;margin-top:30px;padding:0 18px;
+  }
+  /* Rest timer (between lifting sets) */
+  .rest-timer{
+    display:none;background:var(--surface-2);border-radius:12px;padding:14px 16px;margin-top:12px;
+  }
+  .rest-timer.active{display:block;}
+  .rest-timer-top{display:flex;justify-content:space-between;align-items:center;gap:10px;flex-wrap:wrap;}
+  .rest-timer-clock{font-size:2rem;font-weight:800;font-variant-numeric:tabular-nums;color:var(--ink);}
+  .rest-timer-clock.done{color:var(--teal);}
+  .rest-presets{display:flex;gap:6px;flex-wrap:wrap;}
+  .rest-preset{
+    padding:6px 11px;border-radius:100px;border:1.5px solid var(--line);background:var(--card);
+    font-size:.78rem;font-weight:700;color:var(--ink-soft);cursor:pointer;
+  }
+  .rest-preset.active{background:var(--teal);border-color:var(--teal);color:#fff;}
+  .rest-bar-outer{width:100%;height:6px;background:var(--line);border-radius:100px;overflow:hidden;margin:10px 0;}
+  .rest-bar-inner{height:100%;background:var(--teal);border-radius:100px;transition:width .3s linear;}
+  .rest-timer-controls{display:flex;gap:8px;}
+  .rest-timer-controls button{padding:8px 14px;font-size:.85rem;}
+  /* Lift exercise rows */
+  .lift-list{margin-top:10px;}
+  .lift-row{border-top:1px solid var(--line);padding:14px 0;}
+  .lift-row:first-child{border-top:none;padding-top:6px;}
+  .lift-row-head{display:flex;justify-content:space-between;align-items:baseline;gap:8px;flex-wrap:wrap;}
+  .lift-row-head .lname{font-weight:700;font-size:.95rem;}
+  .lift-row-head .ltarget{font-size:.8rem;color:var(--ink-soft);}
+  .lift-last{font-size:.78rem;color:var(--ink-soft);margin-top:2px;}
+  .lift-last.logged{color:var(--teal);font-weight:700;}
+  .lift-suggestion{font-size:.8rem;color:var(--teal);font-weight:600;margin-top:5px;}
+  .lift-suggestion.muted{color:var(--ink-soft);font-weight:500;font-style:italic;}
+  .lift-inputs{display:flex;gap:10px;margin-top:8px;align-items:flex-end;}
+  .lift-inputs .field{flex:1;min-width:0;}
+  .lift-inputs .unit{font-size:.78rem;color:var(--ink-soft);}
+  .set-grid{display:flex;flex-direction:column;gap:8px;margin-top:8px;}
+  .set-grid-head{display:flex;gap:10px;font-size:.72rem;color:var(--ink-soft);font-weight:700;text-transform:uppercase;letter-spacing:.02em;padding:0 0 1px 44px;}
+  .set-grid-head span{flex:1;min-width:0;}
+  .set-row-wrap{display:flex;flex-direction:column;gap:3px;}
+  .set-row{display:flex;gap:8px;align-items:center;}
+  .set-row .set-num{flex:0 0 40px;font-size:.82rem;color:var(--ink-soft);font-weight:700;}
+  .set-row .set-num.set-done{color:var(--teal);}
+  .set-row input{flex:1;min-width:0;}
+  .set-hint{font-size:.74rem;color:var(--teal);font-weight:600;padding-left:48px;}
+  .set-rest-btn{
+    flex:0 0 auto;background:var(--teal-soft);color:var(--teal);border:none;border-radius:8px;
+    padding:0 10px;font-size:.85rem;font-weight:700;height:100%;min-height:38px;cursor:pointer;
+  }
+  .save-bar{position:sticky;bottom:0;background:var(--card);padding-top:12px;margin-top:6px;border-top:1px solid var(--line);}
+  .save-msg{font-size:.82rem;color:var(--teal);font-weight:600;min-height:1.2em;margin-top:6px;}
+  /* Strength progress stat tiles */
+  .split-tabs{display:flex;gap:8px;margin-bottom:14px;flex-wrap:wrap;}
+  .split-tab{padding:7px 14px;border-radius:100px;border:1.5px solid var(--line);background:var(--card);font-size:.82rem;font-weight:700;color:var(--ink-soft);cursor:pointer;}
+  .split-tab.active.push{background:var(--blue);border-color:var(--blue);color:#fff;}
+  .split-tab.active.pull{background:var(--violet);border-color:var(--violet);color:#fff;}
+  .split-tab.active.legs{background:var(--orange);border-color:var(--orange);color:#fff;}
+  .stat-tile-wrap{border-top:1px solid var(--line);}
+  .stat-tile-wrap:first-child{border-top:none;}
+  .stat-tile{
+    display:flex;align-items:center;justify-content:space-between;gap:14px;
+    padding:12px 0;
+  }
+  .stat-tile.clickable{cursor:pointer;}
+  .stat-right{display:flex;align-items:center;gap:8px;flex-shrink:0;}
+  .stat-tile .chev{transition:transform .15s ease;color:var(--ink-soft);font-size:.85rem;flex-shrink:0;}
+  .stat-tile.open .chev{transform:rotate(90deg);}
+  .stat-detail{padding:0 0 16px;}
+  .trend-chart{width:100%;height:auto;display:block;}
+  .stat-left{min-width:0;}
+  .stat-label{font-size:.88rem;font-weight:700;}
+  .stat-value{font-size:1.15rem;font-weight:700;margin-top:2px;}
+  .stat-value .unit{font-size:.72rem;font-weight:600;color:var(--ink-soft);}
+  .stat-delta{font-size:.78rem;font-weight:700;margin-left:8px;}
+  .stat-delta.up{color:var(--teal);}
+  .stat-delta.down{color:var(--amber);}
+  .stat-delta.neutral{color:var(--ink-soft);}
+  .stat-empty{font-size:.8rem;color:var(--ink-soft);font-style:italic;}
+  .stat-1rm{font-size:.76rem;color:var(--ink-soft);margin-top:1px;}
+  .stat-1rm .num{font-weight:700;color:var(--ink);}
+  .sparkline{flex-shrink:0;}
+  .volume-legend{display:flex;gap:14px;flex-wrap:wrap;margin:2px 0 10px;}
+  .volume-legend-item{display:flex;align-items:center;gap:6px;font-size:.8rem;color:var(--ink-soft);font-weight:600;}
+  .volume-legend-item .swatch{width:10px;height:10px;border-radius:3px;flex-shrink:0;}
+  .volume-chart{width:100%;height:auto;display:block;}
+  .export-row{display:flex;gap:10px;flex-wrap:wrap;margin-top:14px;}
+  a.linklike{color:var(--teal);cursor:pointer;font-weight:600;text-decoration:underline;}
+  /* Timer overlay */
+  .timer-overlay{
+    position:fixed;inset:0;background:rgba(10,17,21,.98);
+    display:none;flex-direction:column;align-items:center;justify-content:center;
+    color:#fff;z-index:100;text-align:center;
+    padding:calc(24px + env(safe-area-inset-top)) 24px calc(24px + env(safe-area-inset-bottom));
+  }
+  .timer-overlay.show{display:flex;}
+  .timer-phase{font-size:1.1rem;letter-spacing:.08em;text-transform:uppercase;font-weight:700;opacity:.85;margin-bottom:6px;}
+  .timer-phase.run{color:#ff9770;}
+  .timer-phase.walk{color:#7ec4ff;}
+  .timer-clock{font-size:4.4rem;font-weight:800;font-variant-numeric:tabular-nums;margin:4px 0 18px;}
+  .timer-next{font-size:.9rem;opacity:.7;margin-bottom:26px;}
+  .timer-bar-outer{width:100%;max-width:420px;height:8px;background:rgba(255,255,255,.15);border-radius:100px;overflow:hidden;margin-bottom:30px;}
+  .timer-bar-inner{height:100%;background:#fff;border-radius:100px;transition:width .3s linear;}
+  .voice-toggle{display:flex;align-items:center;gap:8px;font-size:.85rem;color:rgba(255,255,255,.8);margin-bottom:6px;cursor:pointer;user-select:none;}
+  .voice-toggle input{width:17px;height:17px;}
+  .voice-note{font-size:.74rem;color:rgba(255,255,255,.55);max-width:300px;text-align:center;line-height:1.4;margin:0 0 18px;}
+  .timer-controls{display:flex;gap:12px;}
+  .timer-controls button{padding:13px 22px;font-size:1rem;}
+  .timer-controls .btn-primary{background:#fff;color:#0c5f57;}
+  .timer-controls .btn-ghost{border-color:rgba(255,255,255,.3);color:#fff;}
+  .timer-close{position:absolute;top:calc(18px + env(safe-area-inset-top));right:20px;background:transparent;color:#fff;font-size:1.4rem;padding:6px 12px;}
+  @media print{
+    header.top{background:#fff !important;color:#000 !important;}
+    .no-print{display:none !important;}
+    .week-days{display:block !important;}
+    .week-block{break-inside:avoid;}
+  }
+  /* ---------- Calisthenics mode ---------- */
+  select{font-family:inherit;font-size:.95rem;padding:9px 10px;border-radius:8px;border:1px solid var(--line);background:var(--card);color:var(--ink);max-width:100%;}
+  .mode-tabs{display:flex;gap:8px;margin-top:10px;flex-wrap:wrap;}
+  .mode-tab{background:rgba(255,255,255,.14);color:#fff;border:1.5px solid rgba(255,255,255,.35);border-radius:100px;padding:8px 16px;font-size:.88rem;font-weight:700;}
+  .mode-tab.active{background:#fff;color:#0c5f57;border-color:#fff;}
+  .cal-chips{display:flex;gap:6px;flex-wrap:wrap;margin:10px 0 4px;align-items:center;}
+  .cal-chips .lbl{font-size:.78rem;color:var(--ink-soft);font-weight:600;margin-right:2px;}
+  .cal-chip{padding:6px 12px;border-radius:100px;border:1.5px solid var(--line);background:var(--card);font-size:.8rem;font-weight:700;color:var(--ink-soft);}
+  .cal-chip.active{background:var(--teal);border-color:var(--teal);color:#fff;}
+  .cal-banner{background:var(--amber-soft);color:var(--amber);border-radius:10px;padding:10px 12px;font-size:.84rem;font-weight:600;margin:10px 0;}
+  .cal-banner.teal{background:var(--teal-soft);color:var(--teal);}
+  .cal-banner.red{background:var(--danger-soft);color:var(--danger);}
+  .cal-banner button{margin-top:6px;}
+  .cal-rung{display:flex;align-items:center;gap:8px;margin-top:6px;font-size:.8rem;color:var(--ink-soft);font-weight:600;}
+  .cal-rung button{padding:3px 11px;font-size:.85rem;background:var(--surface-2);color:var(--ink);border-radius:8px;}
+  .cal-cue{font-size:.78rem;color:var(--ink-soft);margin-top:5px;}
+  .cal-mini{padding:4px 12px;font-size:.78rem;margin-left:6px;}
+  .cal-unit{flex:0 0 46px;font-size:.78rem;color:var(--ink-soft);font-weight:600;}
+  .cal-ctl{display:flex;gap:10px;flex-wrap:wrap;align-items:center;margin:10px 0;font-size:.84rem;color:var(--ink-soft);font-weight:600;}
+  .cal-ctl label{display:flex;gap:6px;align-items:center;}
+  .cal-table{width:100%;border-collapse:collapse;font-size:.84rem;}
+  .cal-table th,.cal-table td{padding:7px 8px;border-top:1px solid var(--line);text-align:left;vertical-align:top;}
+  .cal-table th{font-size:.72rem;text-transform:uppercase;letter-spacing:.02em;color:var(--ink-soft);border-top:none;}
+  details.cal-det{margin-top:12px;border:1px solid var(--line);border-radius:10px;padding:10px 12px;}
+  details.cal-det summary{cursor:pointer;font-weight:700;font-size:.9rem;}
+  details.cal-det ul{padding-left:20px;margin:8px 0 0;font-size:.86rem;}
+  .cal-test-grid{display:grid;grid-template-columns:repeat(2,1fr);gap:10px;margin:10px 0;}
+  .cal-spark{vertical-align:middle;}
+  .cal-rest{position:fixed;left:0;right:0;bottom:0;z-index:60;background:var(--ink);color:var(--bg);display:none;align-items:center;gap:10px;justify-content:space-between;padding:10px 16px calc(10px + env(safe-area-inset-bottom));box-shadow:0 -4px 20px rgba(0,0,0,.25);}
+  .cal-rest .clock{font-size:1.7rem;font-weight:800;font-variant-numeric:tabular-nums;}
+  .cal-rest .lbl{font-size:.74rem;opacity:.75;font-weight:700;text-transform:uppercase;letter-spacing:.04em;}
+  .cal-rest button{padding:8px 12px;font-size:.82rem;background:rgba(255,255,255,.16);color:inherit;}
+  .cal-rest.done .clock{color:#6fe0c8;}
+  .dot-done{color:var(--teal);font-weight:800;}
+  .cal-ctl > label{width:100%;}
+  .cal-ctl label select{flex:1;min-width:0;}
+  .lift-row.skill{background:var(--surface-3);border-radius:10px;padding:12px 12px;margin-bottom:8px;border-top:none;}
+</style>
+</head>
+<body>
+<header class="top">
+  <div class="wrap">
+    <div class="head-row">
+      <h1>Calisthenics + Lifts</h1>
+      <button class="theme-toggle no-print" id="themeToggle" aria-label="Toggle dark mode" title="Toggle dark mode">&#127769;</button>
+    </div>
+    <p>12 weeks to your first pull-up and a wall handstand, built into your push / pull / legs lifting and your Tue / Thu / Sat runs.</p>
+  </div>
+</header>
+<div class="wrap" id="calApp">
+  <div class="card no-print" id="calSetup" style="display:none;">
+    <h2>Start your 12-week plan</h2>
+    <p class="muted small">Three lifting days a week &mdash; Mon (Pull), Wed (Legs), Fri (Push) &mdash; each starting with pull-up and handstand skill work, around your Tue / Thu / Sat runs, with Sunday off. Pick the Monday you want Week 1 to begin.</p>
+    <div class="row" style="margin-top:12px;">
+      <label class="field">Week 1 starts
+        <input type="date" id="calStartInput">
+      </label>
+      <button class="btn-primary" data-action="start" style="align-self:flex-end;">Start plan</button>
+    </div>
+    <div class="setup-msg" id="calSetupMsg"></div>
+    <div class="export-row"><button class="btn-ghost" data-action="import-open">Import a saved log</button></div>
+  </div>
+  <div id="calMain" style="display:none;">
+    <div class="card today-card" id="calToday"></div>
+    <div class="card" id="calProgress"></div>
+    <div class="card" id="calLifts"></div>
+    <div class="card" id="calBody"></div>
+    <div class="card" id="calTests"></div>
+    <div class="card">
+      <div class="row" style="justify-content:space-between;margin-bottom:8px;"><h2 style="margin:0;">12-week schedule</h2></div>
+      <div id="calSchedule"></div>
+    </div>
+    <div class="card" id="calGuide"></div>
+    <div class="card no-print" id="calData"></div>
+  </div>
+  <input type="file" id="calImportFile" accept="application/json" style="display:none;">
+</div>
+<div class="cal-rest no-print" id="calRest">
+  <div><div class="lbl" id="calRestLbl">Rest</div><div class="clock" id="calRestClock">1:30</div></div>
+  <div class="row" style="gap:6px;flex-wrap:nowrap;">
+    <button data-rest="-15">&minus;15</button><button data-rest="15">+15</button><button data-rest="stop">Skip</button>
+  </div>
+</div>
+<footer class="note no-print">Calisthenics + Lifts &middot; runs entirely in your browser &middot; nothing is uploaded anywhere</footer>
+<script>
+(function(){
+  "use strict";
+  const KEY = 'calisthenics-plan-v1';
+  const THEME_KEY = 'zero-to-5k-theme';
+  const $ = (id)=>document.getElementById(id);
+  const DAY_MS = 86400000;
+  function pad(n){ return n<10 ? '0'+n : ''+n; }
+  function ymd(d){ return d.getFullYear()+'-'+pad(d.getMonth()+1)+'-'+pad(d.getDate()); }
+  function parseYMD(s){ const p=s.split('-').map(Number); return new Date(p[0],p[1]-1,p[2]); }
+  function addDays(d,n){ const r=new Date(d); r.setDate(r.getDate()+n); return r; }
+  function midnight(){ const d=new Date(); d.setHours(0,0,0,0); return d; }
+  function mondayOnOrBefore(d){ const r=new Date(d); r.setHours(0,0,0,0); r.setDate(r.getDate()-((r.getDay()+6)%7)); return r; }
+  function daysBetween(a,b){ return Math.round((b-a)/DAY_MS); }
+  function fmtLong(d){ return d.toLocaleDateString(undefined,{weekday:'long',month:'long',day:'numeric'}); }
+  function fmtShort(d){ return d.toLocaleDateString(undefined,{month:'short',day:'numeric'}); }
+  function fmtClock(s){ s=Math.max(0,Math.round(s)); return Math.floor(s/60)+':'+pad(s%60); }
+
+  /* ---------------- Plan data ---------------- */
+  const LADDERS = {
+    pull:{ label:'Pull-up skill', rungs:[
+      {name:'Dead hang', unit:'sec', goal:30, cue:'Active hang: shoulders pulled down away from your ears, ribs tucked, legs still. Build to 30 sec on every set.'},
+      {name:'Scapular pulls', unit:'reps', goal:10, cue:'Hang, then pull your shoulder blades down and together WITHOUT bending your elbows. Slow and controlled.'},
+      {name:'Assisted pull-ups (chair or jump)', unit:'reps', goal:6, cue:'Use your legs only as much as needed. Lower for a slow 3 seconds on every rep.'},
+      {name:'Negative pull-ups', unit:'reps', goal:5, cue:'Jump or step so your chin is over the bar, then lower for 5 seconds to a full hang.'},
+      {name:'Strict pull-up', unit:'reps', goal:5, final:true, cue:'Start from an active hang, pull your chin over the bar, no swinging. Add reps toward 3 x 5.'}]},
+    hs:{ label:'Handstand skill', rungs:[
+      {name:'Wall plank (feet on the wall)', unit:'sec', goal:30, cue:'Hands on the floor, feet up the wall, body angled in a straight line. Push the floor away.'},
+      {name:'Wall pike hold', unit:'sec', goal:30, cue:'Feet on the wall, hips high over your shoulders, arms locked and pushing tall.'},
+      {name:'Chest-to-wall handstand hold', unit:'sec', goal:30, cue:'Kick up with your chest facing the wall. Squeeze glutes, ribs in, push tall through the shoulders.'},
+      {name:'Chest-to-wall hold, longer', unit:'sec', goal:45, cue:'Same position, now 45 seconds. Stay stacked: wrists, shoulders, hips, toes in one line.'},
+      {name:'Away-from-wall kick-up balance', unit:'sec', goal:5, final:true, cue:'Kick up near the wall and try to hold the balance with your toes just off the wall. Count your best seconds.'}]}
+  };
+  const FIXED = {
+    hollow:{name:'Hollow hold', unit:'sec', lo:15, hi:30, rest:60, cue:'Lower back stays on the floor. Shorten the lever (knees bent or arms by your sides) if it lifts. This builds the straight body line for handstands.'}
+  };
+  const LADDER_REST = {pull:120, hs:60};
+  /* ---------------- Lift program data (your push / pull / legs split) ---------------- */
+  const LIFT_PROGRAMS = {
+    push: [
+      {id:'push-bench',      name:'Bench Press',                sets:4, target:'8'},
+      {id:'push-shoulder',   name:'Shoulder Press',             sets:4, target:'8'},
+      {id:'push-triceps',    name:'Triceps Pushdowns',          sets:4, target:'8'},
+      {id:'push-incline',    name:'Incline Press',              sets:4, target:'8'},
+      {id:'push-lat-raise',  name:'Lateral Raises',             sets:4, target:'8'},
+      {id:'push-flyes',      name:'Chest Flyes',                sets:4, target:'8'}
+    ],
+    pull: [
+      {id:'pull-bo-row',     name:'Bent-Over Barbell Rows',     sets:4, target:'8'},
+      {id:'pull-preacher',   name:'Preacher Curls',             sets:4, target:'8'},
+      {id:'pull-pullover',   name:'Straight-Arm Pullovers',     sets:4, target:'8'},
+      {id:'pull-facepull',   name:'Face Pulls',                 sets:4, target:'8'},
+      {id:'pull-machrow',    name:'Machine Rows',               sets:4, target:'8'},
+      {id:'pull-curl',       name:'Regular Curls',              sets:4, target:'8'}
+    ],
+    legs: [
+      {id:'legs-squat',      name:'Back Squat',                       sets:4, target:'5',    variant:'both'},
+      {id:'legs-legpress',   name:'Single-Leg Machine Leg Press',     sets:4, target:'8/leg', variant:'both'},
+      {id:'legs-quadext',    name:'Quad Extensions',                  sets:4, target:'8',    variant:'push'},
+      {id:'legs-legcurl',    name:'Leg Curls',                        sets:4, target:'8',    variant:'pull'},
+      {id:'legs-calf',       name:'Calves',                           sets:4, target:'8',    variant:'both'}
+    ]
+  };
+  const HEAVY_LIFTS = {'push-bench':150,'push-shoulder':150,'pull-bo-row':150,'legs-squat':180,'legs-legpress':120};
+  function legVariant(w){ return (w%2===1) ? 'push' : 'pull'; }
+  function liftsFor(split, week){
+    const list = LIFT_PROGRAMS[split];
+    if(split!=='legs') return list;
+    return list.filter(x=> x.variant==='both' || x.variant===legVariant(week));
+  }
+  const WORKOUTS = {
+    A:{ title:'Pull day', sub:'Pull-up skill, then your pulls', day:'Monday', mins:'70-80 min', split:'pull', skills:[
+      {ex:'hs', sets:3, rx:'20-30 sec'},
+      {ex:'pull', sets:w=> w<=4?3:4}]},
+    B:{ title:'Leg day', sub:'Skills, core, then your legs', day:'Wednesday', mins:'65-75 min', split:'legs', skills:[
+      {ex:'hs', sets:3, rx:'20-30 sec'},
+      {ex:'pull', sets:w=> w<=4?2:3, note:'Medium effort: same rung as Monday, stop 1-2 reps short.'},
+      {ex:'hollow', sets:3, lo:15, hi:30}]},
+    C:{ title:'Push day', sub:'Handstand skill, then your presses', day:'Friday', mins:'70-80 min', split:'push', skills:[
+      {ex:'hs', sets:w=> w<=4?3:4, rx:'20-30 sec'},
+      {ex:'pull', sets:2, note:'Easy day: stop 2-3 reps short. This is practice, not a workout.'},
+      {ex:'hollow', sets:3, lo:20, hi:30}]},
+    S:{ title:'Skill snack', sub:'Optional 10 minutes on a non-lifting day', day:'Any day', mins:'10 min', split:null, skills:[
+      {ex:'hs', sets:2, rx:'20-30 sec'},
+      {ex:'pull', sets:2, note:'Easy: stop well short of failure.'}]}
+  };
+  const SCHEDULE = {1:'A', 2:'run', 3:'B', 4:'run', 5:'C', 6:'long', 0:'rest'};
+  const DOW = ['Sun','Mon','Tue','Wed','Thu','Fri','Sat'];
+  const PHASES = [
+    {max:4, name:'Foundation', text:'Learn the skill positions and build tendon tolerance. Keep skill sets about 2 reps from failure and lift as you normally do.'},
+    {max:8, name:'Build', text:'Add reps and seconds and move up a rung when you earn it. Your Monday pull-up work and Friday handstand work go to 4 sets.'},
+    {max:12, name:'Strength and unlock', text:'Slow 3-second lowering on skill reps. Aim for your first strict pull-up and a solid chest-to-wall handstand.'}
+  ];
+  function phaseOf(w){ return PHASES.find(p=>w<=p.max); }
+  function isDeload(w){ return w===4 || w===8; }
+
+  /* ---------------- State ---------------- */
+  function freshState(){
+    return {version:2, startDate:null, rungs:{pull:0,hs:0}, logs:{}, lifts:{}, bodyWeights:[], sessions:{}, tests:[]};
+  }
+  let state = freshState();
+  function save(){ try{ localStorage.setItem(KEY, JSON.stringify(state)); }catch(e){} }
+  function load(){
+    try{
+      const raw = localStorage.getItem(KEY);
+      if(!raw) return;
+      adopt(JSON.parse(raw));
+    }catch(e){}
+  }
+  function adopt(s){
+    const f = freshState();
+    state = {
+      version:2,
+      startDate: typeof s.startDate==='string' ? s.startDate : null,
+      rungs: Object.assign(f.rungs, s.rungs||{}),
+      logs: (s.logs && typeof s.logs==='object') ? s.logs : {},
+      lifts: (s.lifts && typeof s.lifts==='object') ? s.lifts : {},
+      bodyWeights: Array.isArray(s.bodyWeights) ? s.bodyWeights.filter(e=>e && typeof e.date==='string' && e.weight>0) : [],
+      sessions: (s.sessions && typeof s.sessions==='object') ? s.sessions : {},
+      tests: Array.isArray(s.tests) ? s.tests : []
+    };
+  }
+  let picked = null;
+  let readyMode = 'good';
+  let hardRun = false;
+  let draft = {};
+  let view = null;
+  let savedMsg = '';
+  const openWeeks = {};
+  const openStats = {};
+
+  function planStart(){ return state.startDate ? mondayOnOrBefore(parseYMD(state.startDate)) : null; }
+  function weekOf(date){
+    const ps = planStart();
+    const d = daysBetween(ps, date);
+    if(d<0) return {state:'pre', days:-d};
+    const w = Math.floor(d/7)+1;
+    if(w>12) return {state:'post', week:12};
+    return {state:'on', week:w};
+  }
+  function entries(ex){ return state.logs[ex] || []; }
+  function entryOn(ex, ds){ return entries(ex).find(e=>e.date===ds) || null; }
+  function entryBefore(ex, ds){ const a=entries(ex).filter(e=>e.date<ds); return a.length ? a[a.length-1] : null; }
+  function liftEntries(id){ return state.lifts[id] || []; }
+  function liftOn(id, ds){ return liftEntries(id).find(e=>e.date===ds) || null; }
+  function liftBefore(id, ds){ const a=liftEntries(id).filter(e=>e.date<ds); return a.length ? a[a.length-1] : null; }
+
+  function info(item){
+    const L = LADDERS[item.ex];
+    if(L){
+      const ri = Math.min(state.rungs[item.ex]||0, L.rungs.length-1);
+      const r = L.rungs[ri];
+      return {ladder:true, label:L.label, ri, count:L.rungs.length, name:r.name, unit:r.unit, goal:r.goal, final:!!r.final, cue:r.cue, rest:LADDER_REST[item.ex]||90};
+    }
+    const f = FIXED[item.ex];
+    const lo = item.lo!=null ? item.lo : f.lo, hi = item.hi!=null ? item.hi : f.hi;
+    return {ladder:false, label:f.name, name:f.name, unit:f.unit, lo, hi, goal:hi, cue:f.cue, rest:f.rest};
+  }
+  function readiness(item){
+    const arr = entries(item.ex);
+    if(arr.length<2) return null;
+    const last2 = arr.slice(-2);
+    const inf = info(item);
+    if(inf.ladder){
+      const ok = last2.every(e=> e.rung===inf.ri && e.sets.length>=2 && e.sets.every(v=>v>=inf.goal));
+      if(!ok) return null;
+      if(inf.final) return {top:true};
+      return {next:LADDERS[item.ex].rungs[inf.ri+1].name};
+    }
+    const ok = last2.every(e=> e.sets.length>=2 && e.sets.every(v=>v>=inf.hi));
+    return ok ? {tempo:true} : null;
+  }
+  function cutFor(week, mods){
+    let cut = 0;
+    if(isDeload(week)) cut++;
+    if(hardRun) cut++;
+    if(mods.shortSleep) cut++;
+    return Math.min(cut,2);
+  }
+  function skillSets(item, week, mods){
+    let s = typeof item.sets==='function' ? item.sets(week) : item.sets;
+    s = Math.max(1, s - cutFor(week,mods));
+    if(mods.halfVolume) s = Math.max(1, Math.ceil(s/2));
+    return s;
+  }
+  function liftSets(ex, week, mods){ return Math.max(2, ex.sets - cutFor(week,mods)); }
+
+  /* ---------------- Lift progression (final sets drive overload) ---------------- */
+  function parseTargetRange(target){
+    const nums = (target.match(/\d+(\.\d+)?/g) || []).map(Number);
+    if(!nums.length) return null;
+    return nums.length===1 ? [nums[0],nums[0]] : [nums[0],nums[nums.length-1]];
+  }
+  function nextIncrement(w){ return w<50 ? 2.5 : (w<150 ? 5 : 10); }
+  function suggestProgression(ex, numSets, lastEntry){
+    const allSets = (lastEntry && lastEntry.sets) || [];
+    if(!numSets) return null;
+    const range = parseTargetRange(ex.target);
+    if(!range) return null;
+    const lo = range[0], hi = range[1];
+    const topCount = Math.min(2, numSets);
+    const topSets = allSets.slice(-topCount).filter(s=>s && s.weight && s.reps);
+    const earlySets = allSets.slice(0, Math.max(0,allSets.length-topCount)).filter(s=>s && s.weight && s.reps);
+    if(!topSets.length) return null;
+    const topWeight = Math.max.apply(null, topSets.map(s=>s.weight));
+    const topHit = topSets.length===topCount && topSets.every(s=>s.reps>=hi);
+    const newTop = topHit ? topWeight + nextIncrement(topWeight) : topWeight;
+    const topNote = topHit
+      ? 'Hit target on your final '+topCount+' sets last time - try '+newTop+' lb on those.'
+      : 'Missed target on your final '+topCount+' sets last time - hold '+topWeight+' lb and try again.';
+    let newEarly = null, earlyNote = null, overall;
+    if(earlySets.length && numSets>topCount){
+      const earlyW = Math.max.apply(null, earlySets.map(s=>s.weight));
+      if(topHit && earlyW < topWeight){
+        newEarly = topWeight; earlyNote = 'Final sets overloaded well - bring these up to '+topWeight+' lb to match.';
+        overall = 'Final '+topCount+' sets hit target - try '+newTop+' lb on those, and bring early sets up to '+topWeight+' lb.';
+      } else if(topHit){
+        newEarly = newTop; earlyNote = 'Moving up with your top sets - try '+newTop+' lb.';
+        overall = 'Final '+topCount+' sets hit target - try '+newTop+' lb across every set.';
+      } else {
+        newEarly = earlyW; earlyNote = 'Hold '+earlyW+' lb.';
+        overall = 'Final '+topCount+' sets missed target - hold steady and try again.';
+      }
+    } else { overall = topNote; }
+    return {topWeight:newTop, topReps:lo, topCount, topNote, earlyWeight:newEarly, earlyReps:lo, earlyNote, overall};
+  }
+
+  /* ---------------- Draft inputs ---------------- */
+  function captureDraft(){
+    document.querySelectorAll('#calToday input[data-dk]').forEach(inp=>{ draft[inp.dataset.dk] = inp.value; });
+  }
+
+  /* ---------------- Rendering: Today ---------------- */
+  function nextStrengthLabel(today){
+    for(let i=1;i<=7;i++){
+      const d = addDays(today,i);
+      const k = SCHEDULE[d.getDay()];
+      if(k==='A'||k==='B'||k==='C') return DOW[d.getDay()]+' ('+WORKOUTS[k].title+')';
+    }
+    return '';
+  }
+  function skillRow(item, week, mods, ds, idxN){
+    const inf = info(item);
+    const n = skillSets(item, week, mods);
+    const prior = entryBefore(item.ex, ds);
+    const today = entryOn(item.ex, ds);
+    let rx;
+    if(item.rx) rx = item.rx;
+    else if(inf.ladder) rx = inf.final ? 'build reps toward '+inf.goal : 'aim '+inf.goal+' '+inf.unit;
+    else rx = (inf.lo===inf.hi ? inf.lo : inf.lo+'-'+inf.hi)+' '+inf.unit;
+    const unitLabel = inf.unit;
+    let h = '<div class="lift-row skill">';
+    h += '<div class="lift-row-head"><span class="lname">'+(idxN+1)+'. '+inf.label+(inf.ladder ? ' &mdash; '+inf.name : '')+'</span><span class="ltarget">'+n+' &times; '+rx+'</span></div>';
+    if(inf.ladder){
+      h += '<div class="cal-rung"><button type="button" data-action="rung-down" data-ex="'+item.ex+'" '+(inf.ri===0?'disabled':'')+' aria-label="Easier rung">&#9664;</button>'
+        + '<span>Rung '+(inf.ri+1)+' of '+inf.count+'</span>'
+        + '<button type="button" data-action="rung-up" data-ex="'+item.ex+'" '+(inf.ri>=inf.count-1?'disabled':'')+' aria-label="Harder rung">&#9654;</button></div>';
+    }
+    if(prior){
+      const lbl = inf.ladder && prior.rung!==inf.ri ? ' ('+LADDERS[item.ex].rungs[prior.rung].name+')' : '';
+      h += '<div class="lift-last">Last time'+lbl+': '+prior.sets.join(' &middot; ')+' '+(inf.ladder ? LADDERS[item.ex].rungs[prior.rung].unit : unitLabel)+'</div>';
+    } else h += '<div class="lift-last">No previous log yet</div>';
+    if(today) h += '<div class="lift-last logged">&#10003; Logged today: '+today.sets.join(' &middot; ')+' '+unitLabel+'</div>';
+    const rd = readiness(item);
+    if(rd){
+      if(rd.next) h += '<div class="lift-suggestion">&#9989; Every set hit '+inf.goal+' '+inf.unit+' two sessions in a row &mdash; ready to move up to <b>'+rd.next+'</b>. <button type="button" class="btn-secondary cal-mini" data-action="rung-up" data-ex="'+item.ex+'">Move up</button></div>';
+      else if(rd.top) h += '<div class="lift-suggestion">&#127942; Top of this ladder &mdash; keep adding reps or seconds and keep the form clean.</div>';
+      else h += '<div class="lift-suggestion">&#9989; You hit the top of the range two sessions in a row &mdash; add 5 seconds or make the position harder.</div>';
+    }
+    if(item.note) h += '<div class="cal-cue"><b>'+item.note+'</b></div>';
+    h += '<div class="cal-cue">'+inf.cue+'</div>';
+    h += '<div class="set-grid">';
+    for(let i=0;i<n;i++){
+      const dk = item.ex+':'+i;
+      let val = '';
+      if(draft[dk]!==undefined) val = draft[dk];
+      else if(today && today.sets[i]!==undefined) val = today.sets[i];
+      let ph;
+      if(prior && prior.sets[i]!==undefined && (!inf.ladder || prior.rung===inf.ri)) ph = prior.sets[i];
+      else ph = inf.ladder ? inf.goal : inf.hi;
+      h += '<div class="set-row-wrap"><div class="set-row">'
+        + '<span class="set-num'+(today&&today.sets[i]!==undefined?' set-done':'')+'">Set '+(i+1)+'</span>'
+        + '<input type="number" inputmode="decimal" min="0" step="1" data-dk="'+dk+'" value="'+val+'" placeholder="'+ph+'" aria-label="'+inf.label+' set '+(i+1)+'">'
+        + '<span class="cal-unit">'+unitLabel+'</span>'
+        + '<button type="button" class="set-rest-btn no-print" data-action="rest" data-sec="'+inf.rest+'" aria-label="Start rest timer">&#9201;</button>'
+        + '</div></div>';
+    }
+    h += '</div></div>';
+    return {html:h, n};
+  }
+  function liftRow(ex, week, mods, ds, idxN){
+    const n = liftSets(ex, week, mods);
+    const prior = liftBefore(ex.id, ds);
+    const today = liftOn(ex.id, ds);
+    const prog = today ? null : suggestProgression(ex, n, prior);
+    let h = '<div class="lift-row">';
+    h += '<div class="lift-row-head"><span class="lname">'+(idxN+1)+'. '+ex.name+'</span><span class="ltarget">'+n+' &times; '+ex.target+'</span></div>';
+    if(today) h += '<div class="lift-last logged">&#10003; Logged today: '+today.sets.map(s=>s.weight+'&times;'+s.reps).join(' &middot; ')+'</div>'
+      + (prior ? '<div class="lift-last">Previous session: '+prior.sets.map(s=>s.weight+'&times;'+s.reps).join(' &middot; ')+'</div>' : '');
+    else {
+      h += '<div class="lift-last">'+(prior ? 'Last time: '+prior.sets.map(s=>s.weight+'&times;'+s.reps).join(' &middot; ') : 'No previous log yet')+'</div>';
+      if(prog) h += '<div class="lift-suggestion">&#128170; '+prog.overall+'</div>';
+      else if(!prior) h += '<div class="lift-suggestion muted">Log a set to start getting progression suggestions.</div>';
+    }
+    const topCount = prog ? prog.topCount : Math.min(2,n);
+    const firstTop = n - topCount;
+    h += '<div class="set-grid"><div class="set-grid-head"><span>Weight (lb)</span><span>Reps</span></div>';
+    for(let i=0;i<n;i++){
+      const priorSet = prior && prior.sets ? prior.sets[i] : null;
+      const todaySet = today && today.sets ? today.sets[i] : null;
+      const isTop = i>=firstTop;
+      const gW = prog ? (isTop ? prog.topWeight : prog.earlyWeight) : null;
+      const gR = prog ? (isTop ? prog.topReps : prog.earlyReps) : null;
+      const kw = ex.id+':'+i+':w', kr = ex.id+':'+i+':r';
+      let vw = draft[kw]!==undefined ? draft[kw] : (todaySet ? todaySet.weight : (gW!=null ? gW : (priorSet ? priorSet.weight : '')));
+      let vr = draft[kr]!==undefined ? draft[kr] : (todaySet ? todaySet.reps : '');
+      const ph = todaySet ? '' : (gR!=null ? 'aim '+gR : (priorSet ? String(priorSet.reps) : ''));
+      const lastOfGroup = isTop ? (i===n-1) : (i===firstTop-1);
+      const note = prog ? (isTop ? prog.topNote : prog.earlyNote) : null;
+      const hint = (lastOfGroup && !todaySet && note) ? '<div class="set-hint">&#128161; '+note+'</div>' : '';
+      h += '<div class="set-row-wrap"><div class="set-row">'
+        + '<span class="set-num'+(todaySet?' set-done':'')+'">Set '+(i+1)+'</span>'
+        + '<input type="number" min="0" step="2.5" inputmode="decimal" data-dk="'+kw+'" value="'+vw+'" aria-label="'+ex.name+' set '+(i+1)+' weight">'
+        + '<input type="number" min="0" step="1" inputmode="numeric" data-dk="'+kr+'" value="'+vr+'" placeholder="'+ph+'" aria-label="'+ex.name+' set '+(i+1)+' reps">'
+        + '<button type="button" class="set-rest-btn no-print" data-action="rest" data-sec="'+(HEAVY_LIFTS[ex.id]||90)+'" aria-label="Start rest timer">&#9201;</button>'
+        + '</div>'+hint+'</div>';
+    }
+    h += '</div></div>';
+    return {html:h, n};
+  }
+
+  function renderToday(){
+    const el = $('calToday');
+    const today = midnight(), ds = ymd(today);
+    const wk = weekOf(today);
+    const week = wk.state==='on' ? wk.week : (wk.state==='post' ? 12 : 1);
+    const sched = SCHEDULE[today.getDay()];
+    const scheduled = (wk.state==='on' && (sched==='A'||sched==='B'||sched==='C')) ? sched : null;
+    const key = picked || scheduled;
+    const ph = phaseOf(week);
+    let h = '<div class="top-row"><span class="badge">'+ph.name+'</span><span class="badge rest">Week '+week+' of 12</span>'+(isDeload(week)?'<span class="badge legs">Lighter week</span>':'')+'</div>';
+    h += '<h2>'+fmtLong(today)+'</h2>';
+    if(wk.state==='pre'){
+      h += '<div class="cal-banner teal">Your plan starts on '+fmtLong(planStart())+' ('+wk.days+' day'+(wk.days===1?'':'s')+' away). You can start a session early below if you like.</div>';
+    } else if(wk.state==='post'){
+      h += '<div class="cal-banner teal">You have finished the 12 weeks. Do a full retest in the Tests card and compare it with your goals.</div>';
+    }
+    h += '<p class="muted small" style="margin:2px 0 0;">'+ph.text+'</p>';
+    if(isDeload(week)) h += '<div class="cal-banner">Lighter week: one set fewer on every exercise. Keep the weights, let the gains settle in.</div>';
+    if(wk.state==='on' && week===1 && sched==='A') h += '<div class="cal-banner">Placement test day: log the tests in the Tests card first, tap &ldquo;Set rungs&rdquo;, then train. Skill sets are at half volume today (already applied).</div>';
+    if(wk.state==='on' && week===6 && sched==='A') h += '<div class="cal-banner">Week 6: repeat the week 1 tests before today&rsquo;s session (Tests card).</div>';
+    if(wk.state==='on' && week===12 && sched==='A') h += '<div class="cal-banner">Retest week: do the full test in the Tests card today, including max strict pull-ups.</div>';
+
+    h += '<div class="cal-chips no-print"><span class="lbl">Session:</span>';
+    ['A','B','C'].forEach(k=>{
+      h += '<button type="button" class="cal-chip'+(key===k?' active':'')+'" data-action="pick" data-k="'+k+'">'+WORKOUTS[k].title.split(' ')[0]+(scheduled===k?' (today)':'')+'</button>';
+    });
+    h += '<button type="button" class="cal-chip'+(key==='S'?' active':'')+'" data-action="pick" data-k="S">Skill snack</button>';
+    if(picked) h += '<button type="button" class="cal-chip" data-action="pick" data-k="">Back to schedule</button>';
+    h += '</div>';
+
+    if(!key){
+      if(sched==='run') h += '<p><b>Run day.</b> Follow your Sub-31 plan. Next lifting session: '+nextStrengthLabel(today)+'. Want extra practice? Try the 10-minute Skill snack above.</p>';
+      else if(sched==='long') h += '<p><b>Long run day.</b> Follow your Sub-31 plan. Next lifting session: '+nextStrengthLabel(today)+'.</p>';
+      else if(sched==='rest') h += '<p><b>Rest day.</b> Easy walk and mobility if you like. Next lifting session: '+nextStrengthLabel(today)+'. A 10-minute Skill snack is optional.</p>';
+      else h += '<p>No session scheduled yet. Pick a session above to train anyway.</p>';
+      el.innerHTML = h; view = null; return;
+    }
+
+    const W = WORKOUTS[key];
+    h += '<h3 style="margin-top:12px;">'+W.title+': '+W.sub+' <span class="muted small">('+W.mins+')</span></h3>';
+    if(key==='B') h += '<p class="muted small" style="margin:2px 0 0;">Thursday is a run, so keep the squat honest but leave a rep or two in the tank.</p>';
+    if(key==='C') h += '<p class="muted small" style="margin:2px 0 0;">Friday has no leg work, so your legs are fresh for Saturday&rsquo;s long run.</p>';
+
+    h += '<div class="cal-ctl no-print"><label>Garmin check: <select data-change="ready" id="calReady">'
+      + [['good','Signals normal'],['sleep','Sleep under 6 hrs or score under 50'],['hrv','HRV unbalanced/low 2 days in a row'],['low','Readiness / Body Battery is Low'],['pain','Sharp joint pain']]
+        .map(o=>'<option value="'+o[0]+'"'+(readyMode===o[0]?' selected':'')+'>'+o[1]+'</option>').join('')
+      + '</select></label><label><input type="checkbox" data-change="hardrun" '+(hardRun?'checked':'')+'> Hard run week (&minus;1 set)</label></div>';
+
+    h += '<details class="cal-det"><summary>Warm-up (about 8 minutes)</summary><ul>'
+      + '<li>2 minutes brisk walk or easy jumping jacks</li><li>10 wrist circles each way, then 10 palm rocks on the floor</li>'
+      + '<li>10 shoulder circles and 10 arm swings</li><li>30-second dead hang</li><li>10 scapular pulls</li><li>A few light sets of your first lift</li></ul></details>';
+
+    if(readyMode==='low'){
+      h += '<div class="cal-banner red">Readiness is low: skip lifting today. Take a 20-minute easy walk and mobility instead, then pick &ldquo;Signals normal&rdquo; above if you want to train anyway.</div>';
+      el.innerHTML = h; view = null; return;
+    }
+    if(readyMode==='pain') h += '<div class="cal-banner red">Sharp joint pain: stop that exercise and drop to an easier rung or lighter weight. Muscle burn is fine, joint pain is not.</div>';
+    if(readyMode==='sleep') h += '<div class="cal-banner">Short sleep: one set fewer on every exercise today.</div>';
+    if(readyMode==='hrv') h += '<div class="cal-banner">HRV is off: do the skill work and only your first two lifts, then stop.</div>';
+
+    const mods = {shortSleep: readyMode==='sleep', halfVolume: wk.state==='on' && week===1 && key==='A' && sched==='A'};
+    if(mods.halfVolume) h += '<div class="cal-banner teal">Half volume on the skill work today (week 1 placement day).</div>';
+    const shown = [];
+    h += '<h3 style="margin-top:14px;">Skill work (do this first, while fresh)</h3><div class="lift-list">';
+    let idx = 0;
+    W.skills.forEach(it=>{
+      const r = skillRow(it, week, mods, ds, idx++);
+      h += r.html; shown.push({kind:'skill', ex:it.ex, n:r.n});
+    });
+    h += '</div>';
+    if(W.split){
+      let lifts = liftsFor(W.split, week);
+      if(readyMode==='hrv') lifts = lifts.slice(0,2);
+      h += '<h3 style="margin-top:14px;">'+W.title.replace(' day','')+' lifts</h3><div class="lift-list">';
+      lifts.forEach(ex=>{
+        const r = liftRow(ex, week, mods, ds, idx++);
+        h += r.html; shown.push({kind:'lift', id:ex.id, n:r.n});
+      });
+      h += '</div>';
+      if(W.split==='legs') h += '<p class="muted small">This week emphasizes '+(legVariant(week)==='push'?'quads (Quad Extensions)':'hamstrings (Leg Curls)')+'. It alternates every week.</p>';
+    }
+    h += '<p class="muted small">Rest 2 minutes between skill sets (pulling) and about 1.5-3 minutes between lifts. Tap &#9201; after a set to start the timer. Stop skill sets about 2 reps short of failure.</p>';
+    h += '<div class="save-bar no-print"><div class="cal-ctl" style="margin-top:0;"><label>Effort (1-10) <select id="calEffort"><option value="">-</option>'
+      + [1,2,3,4,5,6,7,8,9,10].map(n=>'<option value="'+n+'"'+((state.sessions[ds]&&state.sessions[ds].effort===n)?' selected':'')+'>'+n+'</option>').join('')
+      + '</select></label></div><button class="btn-primary" data-action="save-workout" style="width:100%;">Save workout</button></div>';
+    h += '<div class="save-msg" id="calSaveMsg">'+savedMsg+'</div>';
+    if(state.sessions[ds]) h += '<div class="save-msg">&#10003; Session logged today ('+(WORKOUTS[state.sessions[ds].workout]||{title:state.sessions[ds].workout}).title+')</div>';
+    el.innerHTML = h;
+    view = {key, week, ds, shown};
+  }
+
+  /* ---------------- Rendering: progress / lifts / body weight / tests / schedule / guide / data ---------------- */
+  function spark(vals){
+    if(vals.length<2) return '';
+    const w=70, hgt=22, mx=Math.max.apply(null,vals), mn=Math.min.apply(null,vals), span=(mx-mn)||1;
+    const pts = vals.map((v,i)=> (i/(vals.length-1)*(w-4)+2).toFixed(1)+','+(hgt-3-((v-mn)/span)*(hgt-6)).toFixed(1)).join(' ');
+    return '<svg class="cal-spark" width="'+w+'" height="'+hgt+'" viewBox="0 0 '+w+' '+hgt+'"><polyline fill="none" stroke="var(--teal)" stroke-width="2" points="'+pts+'"/></svg>';
+  }
+  function bestOf(e){ return Math.max.apply(null, e.sets); }
+  function renderProgress(){
+    const lifted = Object.keys(state.sessions).filter(d=>['A','B','C'].indexOf(state.sessions[d].workout)>=0).length;
+    const snacks = Object.keys(state.sessions).filter(d=>state.sessions[d].workout==='S').length;
+    const today = midnight(), ps = planStart();
+    let h = '<div class="row" style="justify-content:space-between;"><h2 style="margin:0;">Progress</h2><span class="muted small">'+lifted+' of 36 lift days'+(snacks?' &middot; '+snacks+' skill snack'+(snacks===1?'':'s'):'')+'</span></div>';
+    h += '<div class="progress-outer"><div class="progress-inner" style="width:'+Math.min(100,lifted/36*100)+'%;"></div></div>';
+    const wk = weekOf(today);
+    if(wk.state==='on'){
+      const mon = addDays(ps, (wk.week-1)*7);
+      h += '<p class="small" style="margin:6px 0 10px;">This week: ';
+      [['Pull',0],['Legs',2],['Push',4]].forEach(p=>{
+        const ok = state.sessions[ymd(addDays(mon,p[1]))];
+        h += (ok?'<span class="dot-done">&#10003; ':'&#9675; ')+DOW[(p[1]+1)%7]+' '+p[0]+(ok?'</span>':'')+' &nbsp; ';
+      });
+      h += '</p>';
+    }
+    h += '<table class="cal-table"><tr><th>Skill</th><th>Current rung</th><th>Best set trend</th></tr>';
+    [['pull','Pull-up'],['hs','Handstand']].forEach(p=>{
+      const L = LADDERS[p[0]], ri = Math.min(state.rungs[p[0]]||0, L.rungs.length-1);
+      const same = entries(p[0]).filter(e=>e.rung===ri);
+      const last = same.length ? same[same.length-1] : null;
+      h += '<tr><td><b>'+p[1]+'</b></td><td>'+(ri+1)+'/'+L.rungs.length+': '+L.rungs[ri].name+'</td><td>'+(last ? bestOf(last)+' '+L.rungs[ri].unit+' '+spark(same.slice(-8).map(bestOf)) : '<span class="muted">&mdash;</span>')+'</td></tr>';
+    });
+    h += '</table>';
+    $('calProgress').innerHTML = h;
+  }
+  function renderLiftStats(){
+    let h = '<h2>Lift progress</h2><p class="muted small">Top set per lift (the last set you logged) and how it is trending.</p>';
+    [['pull','Pull day'],['legs','Leg day'],['push','Push day']].forEach(p=>{
+      h += '<details class="cal-det"'+(openStats[p[0]]?' open':'')+' data-stat="'+p[0]+'"><summary>'+p[1]+'</summary><table class="cal-table"><tr><th>Lift</th><th>Top set</th><th>Trend</th></tr>';
+      LIFT_PROGRAMS[p[0]].forEach(ex=>{
+        const arr = liftEntries(ex.id);
+        if(!arr.length){ h += '<tr><td>'+ex.name+'</td><td colspan="2" class="muted">No logs yet</td></tr>'; return; }
+        const tops = arr.map(e=>e.sets[e.sets.length-1]).filter(Boolean);
+        const last = tops[tops.length-1], prev = tops.length>1 ? tops[tops.length-2] : null;
+        let d = '';
+        if(prev){ const diff = last.weight - prev.weight; d = diff>0 ? ' <span class="stat-delta up">+'+diff+'</span>' : (diff<0 ? ' <span class="stat-delta down">'+diff+'</span>' : ' <span class="stat-delta neutral">=</span>'); }
+        h += '<tr><td>'+ex.name+'</td><td>'+last.weight+'&times;'+last.reps+d+'</td><td>'+spark(tops.slice(-8).map(s=>s.weight))+'</td></tr>';
+      });
+      h += '</table></details>';
+    });
+    $('calLifts').innerHTML = h;
+  }
+  function renderBody(){
+    const arr = state.bodyWeights.slice().sort((a,b)=>a.date<b.date?-1:1);
+    const ds = ymd(midnight());
+    const todayW = arr.find(e=>e.date===ds);
+    let h = '<h2>Body weight</h2><p class="muted small">Pull-ups and handstands scale with body weight, so this is worth tracking.</p>';
+    h += '<div class="row" style="margin:8px 0;"><label class="field" style="flex:1;">Today (lb)<input type="number" step="0.1" min="0" inputmode="decimal" id="calBW" value="'+(todayW?todayW.weight:'')+'"></label><button class="btn-primary" data-action="log-bw" style="align-self:flex-end;">Log</button></div>';
+    h += '<div class="save-msg" id="calBWMsg"></div>';
+    if(arr.length){
+      const last = arr[arr.length-1], first = arr[0];
+      h += '<p class="small" style="margin:6px 0 0;"><b>'+last.weight+' lb</b> on '+fmtShort(parseYMD(last.date))+(arr.length>1 ? ' &middot; '+(last.weight-first.weight>=0?'+':'')+(Math.round((last.weight-first.weight)*10)/10)+' lb since '+fmtShort(parseYMD(first.date)) : '')+' '+spark(arr.slice(-12).map(e=>e.weight))+'</p>';
+    }
+    $('calBody').innerHTML = h;
+  }
+
+  const TEST_FIELDS = [
+    ['hang','Max dead hang (sec)'],['pike','Wall pike hold (sec)'],['wallhs','Chest-to-wall handstand hold (sec)'],
+    ['hollow','Hollow hold (sec)'],['negatives','Max 5-sec negative pull-ups'],['pullups','Max strict pull-ups']
+  ];
+  function suggestRungs(t){
+    let pull = 0;
+    if(t.pullups>=1) pull = 4;
+    else if(t.negatives>=3) pull = 3;
+    else if(t.hang>=30) pull = 1;
+    let hs = 0;
+    if(t.wallhs>=30) hs = 3;
+    else if(t.wallhs>=15) hs = 2;
+    else if(t.pike>=20) hs = 1;
+    return {pull, hs};
+  }
+  function renderTests(){
+    let h = '<h2>Tests and goals</h2><p class="muted small">Test in week 1 (before your first session), again at the start of week 6, and in week 12. Rest 3 minutes between tests and stop with good form. Leave a field blank if you cannot do the test yet.</p>';
+    h += '<div class="cal-test-grid">';
+    TEST_FIELDS.forEach(f=>{ h += '<label class="field">'+f[1]+'<input type="number" inputmode="decimal" min="0" id="calT_'+f[0]+'"></label>'; });
+    h += '</div><button class="btn-primary" data-action="save-test">Save test</button><div class="save-msg" id="calTestMsg"></div>';
+    if(state.tests.length){
+      h += '<table class="cal-table" style="margin-top:10px;"><tr><th>Date</th><th>Results</th><th></th></tr>';
+      state.tests.slice().reverse().forEach((t,ri)=>{
+        const idx = state.tests.length-1-ri;
+        const parts = TEST_FIELDS.filter(f=>t[f[0]]!=null).map(f=>f[1].replace(/ \(.*\)/,'').replace('Max ','')+': '+t[f[0]]);
+        h += '<tr><td>'+fmtShort(parseYMD(t.date))+'</td><td>'+parts.join(' &middot; ')+'</td><td><button class="btn-secondary cal-mini" data-action="apply-test" data-i="'+idx+'">Set rungs</button></td></tr>';
+      });
+      h += '</table><p class="muted small">&ldquo;Set rungs&rdquo; picks your starting rung from a test. You can always change it with the arrows on the exercise.</p>';
+    }
+    h += '<details class="cal-det" open><summary>Week 12 goals</summary><table class="cal-table">'
+      + '<tr><th>Skill</th><th>Target</th></tr>'
+      + '<tr><td>Pull-up</td><td>1-3 strict pull-ups, plus 5 controlled 5-second negatives</td></tr>'
+      + '<tr><td>Handstand</td><td>30-second chest-to-wall hold, and your first balance attempts away from the wall</td></tr>'
+      + '<tr><td>Core</td><td>30-second hollow hold</td></tr>'
+      + '<tr><td>Lifting</td><td>Keep adding weight on your main lifts using the suggestions in each session</td></tr></table></details>';
+    $('calTests').innerHTML = h;
+  }
+
+  function renderSchedule(){
+    const ps = planStart(), today = midnight(), cur = weekOf(today);
+    let h = '';
+    for(let w=1; w<=12; w++){
+      const mon = addDays(ps,(w-1)*7);
+      const isOpen = openWeeks[w]!==undefined ? openWeeks[w] : (cur.state==='on' && cur.week===w);
+      let doneN = 0, days = '';
+      for(let i=0;i<7;i++){
+        const d = addDays(mon,i), ds = ymd(d), k = SCHEDULE[d.getDay()];
+        let label;
+        if(k==='A'||k==='B'||k==='C'){ const s = state.sessions[ds]; if(s) doneN++; label = (s?'<span class="dot-done">&#10003; ':'')+WORKOUTS[k].title+(s?'</span>':''); }
+        else if(k==='run') label = 'Run (Sub-31 plan)';
+        else if(k==='long') label = 'Long run (Sub-31 plan)';
+        else label = 'Rest';
+        days += '<div class="day-row'+(ds===ymd(today)?' today':'')+'"><span class="date-col">'+DOW[d.getDay()]+' '+fmtShort(d)+'</span><span class="right-col">'+label+'</span></div>';
+      }
+      const tag = isDeload(w) ? ' &middot; lighter' : (w===1||w===6||w===12 ? ' &middot; test' : '');
+      h += '<div class="week-block'+(isOpen?' open':'')+'"><div class="week-head" data-action="toggle-week" data-w="'+w+'"><span>Week '+w+' &middot; '+phaseOf(w).name+tag+'</span><span><span class="muted small">'+doneN+'/3</span> <span class="chev">&#9654;</span></span></div><div class="week-days">'+days+'</div></div>';
+    }
+    $('calSchedule').innerHTML = h;
+  }
+
+  function renderGuide(){
+    $('calGuide').innerHTML = '<h2>How it fits together</h2>'
+      + '<ul class="tips" style="padding-left:20px;margin:6px 0 10px;font-size:.88rem;">'
+      + '<li><b>Skill work comes first</b>, while you are fresh, then your normal lifts. Pull-up practice before rows means your grip and lats are not already tired.</li>'
+      + '<li><b>Pull-ups are practiced 3 times a week</b> (hard Monday, medium Wednesday, easy Friday). Handstand prep is practiced every lift day because balance skills improve with frequent short practice.</li>'
+      + '<li><b>Move-up rule:</b> stay on a rung until every set hits its target in two sessions in a row. Never skip a rung. Stalled 3 weeks? Drop a set and add a 3-second pause.</li>'
+      + '<li><b>Lifting:</b> the app suggests weight from your last session. The final 2 sets drive the overload and the early sets catch up. Leg day alternates quad and hamstring emphasis each week.</li>'
+      + '<li><b>Skill snack (optional):</b> 10 minutes of handstand holds and easy hangs on a non-lifting day adds practice without much fatigue. Skip it on hard run days.</li></ul>'
+      + '<table class="cal-table"><tr><th>Signal on your Garmin</th><th>What to do</th></tr>'
+      + '<tr><td>Sleep under 6 hours or score below 50</td><td>One set fewer on every exercise</td></tr>'
+      + '<tr><td>HRV unbalanced or low 2 days in a row</td><td>Skill work plus your first two lifts, then stop</td></tr>'
+      + '<tr><td>Training Readiness or Body Battery Low</td><td>Skip lifting: 20-minute easy walk and mobility</td></tr>'
+      + '<tr><td>Sharp joint pain</td><td>Stop that exercise and go easier</td></tr></table>'
+      + '<ul class="tips" style="padding-left:20px;margin:10px 0 0;font-size:.88rem;">'
+      + '<li><b>Pulling:</b> start each rep by pulling your shoulders down, not by bending your elbows.</li>'
+      + '<li><b>Handstand prep:</b> keep wrists warm, push the floor away, and skip it on days your wrists are sore.</li>'
+      + '<li>A missed or shortened session is not a failure. Repeating a week once is always allowed.</li>'
+      + '<li>I am not a medical professional. Check with a doctor first if you have had a shoulder, elbow or wrist injury.</li></ul>';
+  }
+
+  function renderData(){
+    $('calData').innerHTML = '<h2>Your data</h2>'
+      + '<p class="muted small" id="calStorageNote">'+(storageOK() ? 'Your log auto-saves in this browser. Export now and then as a backup.' : 'Storage is blocked in this browser, so your log only lasts until you close the page. Export after each workout.')+'</p>'
+      + '<div class="row" style="margin:8px 0;"><label class="field">Week 1 starts<input type="date" id="calStartEdit" value="'+(state.startDate||'')+'"></label><button class="btn-ghost" data-action="change-start" style="align-self:flex-end;">Change</button></div>'
+      + '<div class="export-row"><button class="btn-secondary" data-action="export">Export log (.json)</button><button class="btn-ghost" data-action="import-open">Import</button><button class="btn-danger" data-action="reset" id="calResetBtn">Reset everything</button></div>'
+      + '<div class="save-msg" id="calDataMsg"></div>';
+  }
+  function storageOK(){ try{ localStorage.setItem('__t','1'); localStorage.removeItem('__t'); return true; }catch(e){ return false; } }
+
+  function renderAll(){
+    if(!state.startDate){
+      $('calSetup').style.display = ''; $('calMain').style.display = 'none';
+      return;
+    }
+    $('calSetup').style.display = 'none'; $('calMain').style.display = '';
+    renderToday(); renderProgress(); renderLiftStats(); renderBody(); renderTests(); renderSchedule(); renderGuide(); renderData();
+  }
+
+  /* ---------------- Rest timer ---------------- */
+  let rest = {left:0, total:0, id:null};
+  let audioCtx = null, wake = null;
+  function beep(f,d){
+    try{
+      audioCtx = audioCtx || new (window.AudioContext||window.webkitAudioContext)();
+      const o = audioCtx.createOscillator(), g = audioCtx.createGain();
+      o.frequency.value = f; g.gain.value = .15; o.connect(g); g.connect(audioCtx.destination);
+      o.start(); o.stop(audioCtx.currentTime + d/1000);
+    }catch(e){}
+  }
+  async function lockScreen(){ try{ if(navigator.wakeLock && !wake) wake = await navigator.wakeLock.request('screen'); }catch(e){} }
+  function unlockScreen(){ try{ if(wake){ wake.release(); wake = null; } }catch(e){} }
+  function showRest(){
+    const bar = $('calRest');
+    bar.style.display = 'flex';
+    bar.classList.toggle('done', rest.left<=0);
+    $('calRestClock').textContent = fmtClock(rest.left);
+    $('calRestLbl').textContent = rest.left<=0 ? 'Go! Next set' : 'Rest';
+  }
+  function startRest(sec){
+    clearInterval(rest.id);
+    rest.left = sec; rest.total = sec;
+    showRest(); lockScreen(); beep(0,1);
+    rest.id = setInterval(()=>{
+      rest.left--;
+      if(rest.left<=0){
+        clearInterval(rest.id);
+        beep(880,200); setTimeout(()=>beep(1046,260),200);
+        try{ if(navigator.vibrate) navigator.vibrate([200,100,200]); }catch(e){}
+        unlockScreen(); showRest();
+        setTimeout(()=>{ if(rest.left<=0) stopRest(); }, 4000);
+        return;
+      }
+      showRest();
+    },1000);
+  }
+  function stopRest(){ clearInterval(rest.id); rest.left = 0; $('calRest').style.display = 'none'; unlockScreen(); }
+
+  /* ---------------- Actions ---------------- */
+  function saveWorkout(){
+    captureDraft();
+    if(!view) return;
+    const msg = $('calSaveMsg');
+    let any = false;
+    view.shown.forEach(s=>{
+      if(s.kind==='skill'){
+        const vals = [];
+        for(let i=0;i<s.n;i++){ const v = parseFloat(draft[s.ex+':'+i]); if(v>0) vals.push(v); }
+        if(!vals.length) return;
+        any = true;
+        if(!state.logs[s.ex]) state.logs[s.ex] = [];
+        const arr = state.logs[s.ex];
+        const e = {date:view.ds, week:view.week, workout:view.key, sets:vals};
+        if(LADDERS[s.ex]) e.rung = state.rungs[s.ex]||0;
+        const ix = arr.findIndex(x=>x.date===view.ds);
+        if(ix>=0) arr[ix] = e; else arr.push(e);
+        arr.sort((a,b)=> a.date<b.date ? -1 : 1);
+      } else {
+        const sets = [];
+        for(let i=0;i<s.n;i++){
+          const w = parseFloat(draft[s.id+':'+i+':w']), r = parseFloat(draft[s.id+':'+i+':r']);
+          if(w>0 && r>0) sets.push({weight:w, reps:r});
+        }
+        if(!sets.length) return;
+        any = true;
+        if(!state.lifts[s.id]) state.lifts[s.id] = [];
+        const arr = state.lifts[s.id];
+        const e = {date:view.ds, week:view.week, sets};
+        const ix = arr.findIndex(x=>x.date===view.ds);
+        if(ix>=0) arr[ix] = e; else arr.push(e);
+        arr.sort((a,b)=> a.date<b.date ? -1 : 1);
+      }
+    });
+    if(!any){ if(msg) msg.textContent = 'Enter at least one set first.'; return; }
+    const eff = parseInt(($('calEffort')||{}).value,10);
+    state.sessions[view.ds] = {workout:view.key, week:view.week, effort: eff>0 ? eff : null};
+    save();
+    draft = {};
+    savedMsg = 'Saved! Nice work.';
+    renderAll();
+    setTimeout(()=>{ savedMsg=''; const m=$('calSaveMsg'); if(m) m.textContent=''; },3500);
+  }
+  function saveTest(){
+    const t = {date: ymd(midnight())};
+    let any = false;
+    TEST_FIELDS.forEach(f=>{
+      const v = parseFloat($('calT_'+f[0]).value);
+      if(v>=0 && !isNaN(v)){ t[f[0]] = v; any = true; }
+    });
+    const m = $('calTestMsg');
+    if(!any){ m.textContent = 'Enter at least one result.'; return; }
+    const wk = weekOf(midnight());
+    t.week = wk.state==='on' ? wk.week : (wk.state==='post' ? 12 : 1);
+    const ix = state.tests.findIndex(x=>x.date===t.date);
+    if(ix>=0) state.tests[ix] = t; else state.tests.push(t);
+    save(); renderTests();
+    $('calTestMsg').textContent = 'Test saved. Tap "Set rungs" to apply your starting rungs.';
+  }
+  function logBodyWeight(){
+    const v = parseFloat($('calBW').value);
+    if(!(v>0)){ $('calBWMsg').textContent = 'Enter your weight in lb.'; return; }
+    const ds = ymd(midnight());
+    const ix = state.bodyWeights.findIndex(e=>e.date===ds);
+    if(ix>=0) state.bodyWeights[ix].weight = v; else state.bodyWeights.push({date:ds, weight:v});
+    save(); renderBody();
+    $('calBWMsg').textContent = 'Logged.';
+  }
+  function toggleWeek(w){
+    const el = document.querySelector('[data-w="'+w+'"]').parentNode;
+    const open = !el.classList.contains('open');
+    openWeeks[w] = open;
+    el.classList.toggle('open', open);
+  }
+  function download(name, text){
+    const blob = new Blob([text], {type:'application/json'});
+    const url = URL.createObjectURL(blob);
+    const a = document.createElement('a'); a.href = url; a.download = name; document.body.appendChild(a); a.click();
+    setTimeout(()=>{ URL.revokeObjectURL(url); a.remove(); },500);
+  }
+  let resetArmed = false;
+  document.addEventListener('click', (e)=>{
+    const t = e.target.closest('[data-action]');
+    if(!t) return;
+    const a = t.dataset.action;
+    if(a==='start'){
+      const v = $('calStartInput').value;
+      if(!v){ $('calSetupMsg').textContent = 'Pick a start date.'; return; }
+      state.startDate = ymd(mondayOnOrBefore(parseYMD(v)));
+      save(); renderAll();
+    } else if(a==='pick'){
+      captureDraft(); picked = t.dataset.k || null; renderToday();
+    } else if(a==='rung-up' || a==='rung-down'){
+      captureDraft();
+      const ex = t.dataset.ex, n = LADDERS[ex].rungs.length, cur = state.rungs[ex]||0;
+      state.rungs[ex] = Math.max(0, Math.min(n-1, cur + (a==='rung-up'?1:-1)));
+      save(); renderToday(); renderProgress();
+    } else if(a==='rest'){
+      startRest(parseInt(t.dataset.sec,10)||90);
+    } else if(a==='save-workout'){ saveWorkout();
+    } else if(a==='save-test'){ saveTest();
+    } else if(a==='log-bw'){ logBodyWeight();
+    } else if(a==='apply-test'){
+      const s = suggestRungs(state.tests[parseInt(t.dataset.i,10)]);
+      Object.keys(s).forEach(k=>{ state.rungs[k] = s[k]; });
+      save(); renderToday(); renderProgress();
+      $('calTestMsg').textContent = 'Starting rungs set from this test.';
+    } else if(a==='toggle-week'){ toggleWeek(t.dataset.w);
+    } else if(a==='change-start'){
+      const v = $('calStartEdit').value;
+      if(!v) return;
+      state.startDate = ymd(mondayOnOrBefore(parseYMD(v)));
+      save(); renderAll();
+      $('calDataMsg').textContent = 'Week 1 now starts '+fmtLong(planStart())+'.';
+    } else if(a==='export'){ download('calisthenics-log.json', JSON.stringify(state,null,2));
+    } else if(a==='import-open'){ $('calImportFile').click();
+    } else if(a==='reset'){
+      if(!resetArmed){ resetArmed = true; t.textContent = 'Tap again to erase everything'; setTimeout(()=>{ resetArmed=false; if(t.isConnected) t.textContent='Reset everything'; },4000); return; }
+      resetArmed = false; state = freshState(); draft = {}; picked = null; save(); renderAll();
+    }
+  });
+  document.addEventListener('change', (e)=>{
+    const t = e.target;
+    if(t.dataset && t.dataset.change==='ready'){ captureDraft(); readyMode = t.value; renderToday(); }
+    else if(t.dataset && t.dataset.change==='hardrun'){ captureDraft(); hardRun = t.checked; renderToday(); }
+  });
+  document.addEventListener('toggle', (e)=>{
+    const t = e.target;
+    if(t && t.dataset && t.dataset.stat) openStats[t.dataset.stat] = t.open;
+  }, true);
+  $('calImportFile').addEventListener('change', (e)=>{
+    const f = e.target.files && e.target.files[0];
+    if(!f) return;
+    const r = new FileReader();
+    r.onload = ()=>{
+      try{
+        const s = JSON.parse(r.result);
+        if(!s || typeof s!=='object' || (!s.startDate && !s.logs)) throw new Error('bad');
+        adopt(s); if(!state.startDate) state.startDate = ymd(mondayOnOrBefore(midnight()));
+        save(); renderAll();
+      }catch(err){ alert('That file is not a log from this app.'); }
+    };
+    r.readAsText(f);
+    e.target.value = '';
+  });
+  document.querySelectorAll('[data-rest]').forEach(b=>{
+    b.addEventListener('click', ()=>{
+      const v = b.dataset.rest;
+      if(v==='stop'){ stopRest(); return; }
+      rest.left = Math.max(1, rest.left + parseInt(v,10)); showRest();
+    });
+  });
+  function themeIcon(){ $('themeToggle').textContent = document.documentElement.getAttribute('data-theme')==='dark' ? '☀️' : '🌙'; }
+  $('themeToggle').addEventListener('click', ()=>{
+    const dark = document.documentElement.getAttribute('data-theme')==='dark';
+    if(dark) document.documentElement.removeAttribute('data-theme'); else document.documentElement.setAttribute('data-theme','dark');
+    try{ localStorage.setItem(THEME_KEY, dark?'light':'dark'); }catch(e){}
+    themeIcon();
+  });
+  themeIcon();
+
+  /* ---------------- Boot ---------------- */
+  load();
+  (function(){
+    const t = midnight();
+    const add = (8 - (t.getDay()||7)) % 7;
+    $('calStartInput').value = ymd(addDays(t, t.getDay()===1 ? 0 : add));
+  })();
+  renderAll();
+  window.__cal = {get state(){ return state; }, renderAll};
+})();
+
+</script>
+</body>
+</html>
